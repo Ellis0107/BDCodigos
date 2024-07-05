@@ -1,4 +1,4 @@
---Crear un sp que solicite un id de una categoría 
+--Crear un sp que solicite un id de una categorï¿½a 
 -- y devuelva el promedio de los precios de sus productos
 
 use NORTHWND
@@ -17,3 +17,4 @@ select * from Products
 
 exec sp_solicitar_promedio_prod 2
 exec sp_solicitar_promedio_prod @catego = 5
+exec sp_solicitar_promedio_prod 2
